@@ -1,0 +1,30 @@
+# Django-related files
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Static files
+/static/
+/media/
+
+# Site and application settings
+.env
+.env.local
+.env.*.local
+.env.*.prod
+.env.prod
+*.ini
+
+# Database files
+*.sqlite3
+
+# Secret keys and other sensitive data
+secret_key.txt
+*.key
+
+# Miscellaneous
+*.swp
+.DS_Store
+.idea/
